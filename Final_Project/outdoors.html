@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Currall | Outdoor Life</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Space+Mono|Raleway" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon4.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main1.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+		<script>
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+    	});
+    	</script>
+		<style>
+      
+      main {
+/*         height: 1000px; */
+      }
+      
+      #floater {
+        width: 70%;
+        float: right;
+      }
+      
+      #falls {
+        width: 20%;
+        min-width: 150px;
+        margin: 2em 0.5em 2em 2.5em;
+      }
+      
+      @media only screen and (max-width: 767px) {
+        #floater {
+          float: none;
+          width: 90%;
+        }
+        
+        #falls {
+          width: 80%;
+          max-width: 400px;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      
+		</style>
+  </head>
+  
+  <body>
+    <header>
+       <img src="images/profile.png" width="80px">
+      <h2>
+        Robert Currall
+      </h2>
+      <h3>
+        Computational Science Student
+      </h3>
+      
+    <nav id="mobilemenu"></nav>
+    <nav id="nav_menu">
+    		<ul>
+          <li><a href="index.html">Home</a></li>
+    			<li><a href="education.html">Education</a></li>
+          <li><a href="work.html">Work Experience</a></li>
+    			<li ><a>Projects</a>
+    			      <ul>
+                    <li><a href="greenfoot.html">Greenfoot Project</a></li>
+										<li><a href="eaglescout.html">Eagle Scout Project</a></li>
+                </ul>
+          </li>
+          <li><a class="lastitem">Hobbies</a>
+            		<ul>
+                    <li><a href="outdoors.html">Hiking &amp Outdoor Life</a></li>
+                </ul> 
+    			</li>         
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+			<h2>
+				Hiking &amp Outdoor Life
+			</h2>
+      <p>
+       	I have always enjoyed the outdoors and spending time in nature. I was in the Boy Scouts and 
+        achieved the rank of Eagle Scout. During my time in the Boy Scouts I regularly went on camping
+        trips to various state parks. I continue to visit state parks and go camping today.        
+      </p>
+        
+      <p id="floater">
+        I recently took a trip to Stone Mountain State Park in North Carolina with my girlfriend, Taylor. During
+        our visit to the state park we visited the small settlement they have set up at the base of the 
+        mountain and learned about the family that lived there and the lifestyle that people lead living
+        deep in the Blue Ridge Mountains.
+      </p>  
+      
+      <p id="floater">
+        Afterwards we hiked down to stone mountain water fall, a 200 foot waterfall. Being in late fall when 
+        we visited the park there were very few people at the falls. We climbed up the side of the water fall
+        to get a better view and to take some photos
+      </p>
+      
+      <p id="floater">
+        I have also been to Mount Rodgers, which I visited in the winter time as well, after a heavy snow. 
+        I was with my girlfriend and spent the day trying to hike to a waterfall that was out in the woods.
+        We never found the waterfall but did find an abandoned home that looked to have been built in the 
+        early 1900s.
+      </p>
+      <img id="falls" src="images/waterfalls.png" alt="stone mountain falls">
+    	
+			<aside>
+				
+			</aside>
+    	</main>
+    
+    <footer>
+    	<div>
+				<a href="email.html"><img src="images/Email.ico" title="Email" width= 32></a>
+				<a href="https://bitbucket.org/rlcurrall/" title="Bitbucket" target="_blank"><img src="images/Bitbucket.ico" width= 32></a>
+				<a href="https://github.com/rlcurrall" title="Github" target="_blank"><img src="images/Github.ico" width= 32></a>
+				<a href="https://twitter.com/RobCurrall" title="Twitter" target="_blank"><img src="images/Twitter.ico" width= 32></a>
+			</div>
+    </footer>
+  </body>
+</html>

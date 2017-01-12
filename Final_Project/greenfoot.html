@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+		<meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Currall | Greenfoot</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Space+Mono|Raleway" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon4.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main1.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+		<script>
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+    	});
+    	</script>
+		<style>
+			section img {
+				width: 400px;
+				max-width: 90%;
+				float: right;
+				padding: 1em 0.5em;
+			}
+			
+			@media only screen and (max-width: 767px) {
+				section img {
+					float: none;
+					display: block;
+					margin: 0 auto;
+				}
+			}
+		</style>
+  </head>
+  
+  <body>
+    <header>
+       <img src="images/profile.png" width="80px">
+      <h2>
+        Robert Currall
+      </h2>
+      <h3>
+        Computational Science Student
+      </h3>
+      
+    <nav id="mobilemenu"></nav>
+    <nav id="nav_menu">
+    		<ul>
+          <li><a href="index.html">Home</a></li>
+    			<li><a href="education.html">Education</a></li>
+          <li><a href="work.html">Work Experience</a></li>
+    			<li ><a>Projects</a>
+    			      <ul>
+                    <li><a href="greenfoot.html">Greenfoot Project</a></li>
+										<li><a href="eaglescout.html">Eagle Scout Project</a></li>
+                </ul>
+          </li>
+          <li><a class="lastitem">Hobbies</a>
+            		<ul>
+                    <li><a href="outdoors.html">Hiking &amp Outdoor Life</a></li>
+                </ul> 
+    			</li>         
+    		</ul>
+    	</nav>
+    </header>
+    
+    <main>
+			<section>
+				<h2>
+					Greenfoot Project
+				</h2>
+      	<p>
+        	For my CSCI 145 class at USC Beaufort, the final project was to create a video game coded in java that 
+					was based on spanish culture. For my project I made a game about Santa Elena, one of the first Spanish
+					settlements in the Beaufort area. The settlement was located on modern day Parris Island.
+					
+					The game is designed to be a role playing game where the player is the leader of the Santa Elena Settlement.
+					For the project I used the Greenfoot IDE to create and run the program and all of it's class files.
+        
+      	</p>
+				
+				<img src="images/Greenfoot_screenshot.PNG" alt="Greenfoot screenshot">
+				
+				<h3>
+					How to play:
+				</h3>
+				<p>
+				In the game, you control the movement and decisions of the new Adelantado, governor, of La Florida. Your goal
+					is to earn enough money to keep the Spanish government from abandoning Santa Elena. You should find a balance
+					in relations with the local Native Americans and making a profit for the Spanish Crown. If you grow your treasury
+					to one million reales, the Spanish currency of the time, you will win the game. If your treasury drops down to 
+					zero you will get a game over and an order from the Crown to burn down Santa Elena. You will also have a food store
+					that will be depleted faster for each person that moves to Santa Elena, if the food storage reaches zero your 
+					settlers will starve and die, and you will get a game over.
+				</p>
+				
+				<h3>
+					Controls &amp Gameplay:
+				</h3>
+				<p>
+					<b>Movement</b><br/>
+					Press the direction buttons to move your character UP, DOWN, LEFT, and RIGHT around the map by pressing the
+					respective arrow key.
+				</p>
+				
+				<p>
+					<b>Dialogue</b><br/>
+					To interact with settlers of Santa Elena, walk up close to the settler and press ENTER. This will bring up a
+					dialogue box displaying what the settler says and options for different responses. To select a response to say
+					to a settler, use the UP and DOWN arrow keys to highlight your response and press ENTER to say what you have 
+					selected to the settler.
+				</p>
+				
+				<p>
+					<b>Invest</b><br/>
+					You can invest money to bring merchants, farmers, etc. from Spain to occupy the empty stores around the 
+					settlement, in turn you will receive taxes from them. To invest in a business, walk up to the sign by the 
+					entrance to the empty shop and press ENTER. A dialogue box will appear with information about the shop, 
+					how much you need to invest, and how much taxes you will receive. Using the arrow keys, you can select the
+					option to INVEST or CANCEL. If you invest in a business the money will be removed from your treasury. Once 
+					you have invested in a business you can speak with the shop owner to invest more money and receive even more
+					taxes.
+				</p>
+				
+				<p>
+					<b>Farmers</b><br/>
+					You can invest in farmers to come work the lands around the settlement will give you food instead of money. 
+					They are important to prevent your settlers from starving, but are limited in how much food they can produce 
+					because the soil on the island is not suitable for growing crops for large populations, so you must rely on 
+					other means to obtain food.
+				</p>
+				
+				<p>
+					<b>Merchants</b><br/>
+					You can interact with merchants to purchase extra food when you have a shortage, or gifts to give to the local 
+					native American tribes. The merchants will be important to keep your settlers from starving, and to improve 
+					relations with the native Americans. 
+				</p>
+
+				<h3>
+					Native American Relations
+				</h3>
+				<p>
+					The soil around Santa Elena cannot support the farming needed to feed everyone you hire. One solution to this is 
+					to rely on the nearby native American tribes when you have shortages of food. You can speak with a tribesman who 
+					stands by the town hall to make decisions regarding your relationship with the tribe. Through dialogue with the 
+					tribesman you can demand a tribute of food from the tribe to keep the settlers from starving. This will have a 
+					negative impact on your relationship with the tribe, but save the settlement from doom. You may also pay your 
+					merchants for gifts to give to the tribesman, improving your relationship. 
+				</p>
+				<p>
+					If your relationship status is too low, the native Americans will periodically attack the settlement to drive you 
+					out, which will cost you money in rebuilding costs. If your relationship is high enough the tribe will gift you 
+					with food and goods you can sell back to Spain for profit.
+				</p>
+			</section>
+    	
+			<aside>
+				
+			</aside>
+    	</main>
+    
+    <footer>
+    	<div>
+				<a href="email.html"><img src="images/Email.ico" title="Email" width= 32></a>
+				<a href="https://bitbucket.org/rlcurrall/" title="Bitbucket" target="_blank"><img src="images/Bitbucket.ico" width= 32></a>
+				<a href="https://github.com/rlcurrall" title="Github" target="_blank"><img src="images/Github.ico" width= 32></a>
+				<a href="https://twitter.com/RobCurrall" title="Twitter" target="_blank"><img src="images/Twitter.ico" width= 32></a>
+			</div>
+    </footer>
+  </body>
+</html>
